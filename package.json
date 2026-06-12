@@ -4,6 +4,7 @@
   "description": "Development utilities and helpers",
   "main": "index.js",
   "scripts": {
+    "postinstall": "node scripts/setup.js || true",
     "build": "tsc",
     "lint": "eslint src/",
     "test": "jest"
